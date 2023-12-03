@@ -1,0 +1,64 @@
+.tagline {
+  left: 500px;
+  
+  position: relative;
+  font-family: ui-monospace;
+  font-size: 20px;
+  padding: 16px;
+  /* text-align: center; */
+  background-color: var(--token-e3d8aeb2-4bb0-430b-9ecd-1d8237f4c0c1, #f1f2f4);
+  border-radius: 10px;
+  width: 30pc;
+  /* margin-left: 229px; */
+  left: 30;
+  /* left: 35px;*/
+
+  }
+  
+  .heading {
+    font-size: 40px;
+    font-weight: 800;  
+    text-align: center;
+  } 
+  
+  .description {
+    font-weight: 500;
+    text-align: center;  
+  }
+  
+  .btn {
+    background-color: #2e2e2e;
+    border-radius: 12px; 
+    color: white; 
+    padding: 10px 25px;
+  }
+  
+  .trial {
+    font-size: 12px;
+    text-align: center; 
+    
+  }
+  
+  .avtr{
+    margin: 0 auto;
+    width: 500px; 
+    text-align: center;  }
+
+    .image-container {
+        width: 80%;
+        margin: 25px;
+        align-items: center;
+        padding: 12px;
+      }
+      
+      .main-image {
+        width: 100%;
+        height: 446px;
+        opacity: 1;
+        transform: perspective(1200px);
+        pointer-events: none;
+        -webkit-user-select: none;
+        user-select: none;
+        border-radius: inherit;
+    
+      }

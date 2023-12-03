@@ -1,0 +1,51 @@
+/* Align elements vertically */ 
+.footer-container {
+    display: flex;
+    flex-wrap: wrap; 
+    background-color: rgb(241, 242, 244);
+    width: 100%;
+    display: flex;
+    opacity: 1;
+    align-items: center;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  .nav{
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .footer-container div {
+    flex: 1; 
+    /* flex-direction: column;  */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  } 
+  .footer-container div h3,h2{
+    color: black;
+    font-size: large;
+  }
+
+  .footer-container div a,p {
+    color: gray;
+    font-size: small;
+    font-size: medium;
+    margin: 3px;
+    flex-direction: column;
+  }
+
+  .footer-container div a {
+    color: gray;
+    font-size: small;
+  }
+
+  .footer-container div p{
+    padding: 2%;
+  }
+
+  
+  /* Other styles */
